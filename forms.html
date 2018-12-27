@@ -15,7 +15,13 @@
 		
 		<!-- the value of the for attribute of label tag and that of id attribute of input tag have to be the same -->
 		<label for="username">Username: </label>
-		<input type="text" placeholder="username" name="username" id="username">
+		<input type="text" placeholder="username" name="username" id="username" required>
+		<!-- The boolean attribute required makes sure that the input field is a mandatory field -->
+
+		<label for="email">Email: </label>
+		<input type="email" placeholder="email" name="email" id="email" required>
+		<!-- The boolean attribute required makes sure that the input field is a mandatory field -->
+		<!-- email type adds validation per se -->
 
 		<label for="password">Password: </label>
 		<input type="password" placeholder="password" name="password" id="password">
