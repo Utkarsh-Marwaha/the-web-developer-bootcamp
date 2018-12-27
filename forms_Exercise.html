@@ -45,28 +45,33 @@
 
 			<div>
 				<!-- Date of Birth choice -->
-				<label for="DOB">Birthday</label>
+				<fieldset>
+					<legend>Birthday</legend>
+				
+					<!-- Month Dropdown list -->
+					<label for="month">Month:</label>
+					<select id="month" name="Month" required="">
+						<option>Jan</option>
+						<option>Feb</option>
+					</select>
 
-				<!-- Month Dropdown list -->
-				<select id="DOB" name="Month" required="">
-					<option value="" disabled selected>Month</option>
-					<option>Jan</option>
-					<option>Feb</option>
-				</select>
+					<!-- Day Dropdown list -->
+					<label for="day">Day:</label>
+					<select id="day" name="Day" required="">
+						<option>1</option>
+						<option>2</option>
+					</select>
 
-				<!-- Day Dropdown list -->
-				<select id="DOB" name="Day" required="">
-					<option value="" disabled selected>Day</option>
-					<option>1</option>
-					<option>2</option>
-				</select>
+					<!-- Year Dropdown list -->
+					<label for="year">Year:</label>
+					<select id="year" name="Year" required="">
+						<option>2018</option>
+						<option>2017</option>
+					</select>	
 
-				<!-- Year Dropdown list -->
-				<select id="DOB" name="Year" required="">
-					<option value="" disabled selected>Year</option>
-					<option>2018</option>
-					<option>2017</option>
-				</select>	
+				</fieldset>
+			
+				
 			</div>
 			
 
