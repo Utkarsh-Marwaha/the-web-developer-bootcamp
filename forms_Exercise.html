@@ -9,70 +9,72 @@
 
 		<form>
 
-			<!-- First Name -->
-			<label for="first_name">First Name: </label>
-			<input type="text" name="first_name" id="first_name" placeholder="First Name" required>
+			<div><!-- First Name -->
+				<label for="first_name">First Name: </label>
+				<input type="text" name="first_name" id="first_name" placeholder="First Name" required>
 
-			<!-- Last Name -->
-			<label for="last_name">Last Name: </label>
-			<input type="text" name="last_name" id="last_name" placeholder="Last Name" required>
+				<!-- Last Name -->
+				<label for="last_name">Last Name: </label>
+				<input type="text" name="last_name" id="last_name" placeholder="Last Name" required>
+			</div>
+			
+			<div>
+				<!-- Radio button choices for selecting Gender -->
+				<label for="male">Male</label>
+				<!-- To group radio buttons they must all have the same name value. This allows only one to be selected at a time and applies required to the whole group. -->
+				<input id="male" type="radio" name="gender_choice" value="MALE" required="">
 
-			<br>
+				<label for="female">Female</label>
+				<input id="female" type="radio" name="gender_choice" value="FEMALE">
 
-			<!-- Radio button choices for selecting Gender -->
-			<label for="male">Male</label>
-			<!-- To group radio buttons they must all have the same name value. This allows only one to be selected at a time and applies required to the whole group. -->
-			<input id="male" type="radio" name="gender_choice" value="MALE" required="">
+				<label for="other">Other</label>
+				<input id="other" type="radio" name="gender_choice" value="OTHER">
+			</div>
+			
 
-			<label for="female">Female</label>
-			<input id="female" type="radio" name="gender_choice" value="FEMALE">
+			<div>
+				<!-- Email -->
+				<label for="email">Email: </label>
+				<input type="email" name="email" id="email" placeholder="Email" required>
 
-			<label for="other">Other</label>
-			<input id="other" type="radio" name="gender_choice" value="OTHER">
+				<!-- Password -->
+				<label for="password">Password: </label>
+				<input type="password" name="password" id="password" placeholder="Password" minlength="5" maxlength="10" required>
+			</div>
+			
 
-			<br>
+			<div>
+				<!-- Date of Birth choice -->
+				<label for="DOB">Birthday</label>
 
-			<!-- Email -->
-			<label for="email">Email: </label>
-			<input type="email" name="email" id="email" placeholder="Email" required>
+				<!-- Month Dropdown list -->
+				<select id="DOB" name="Month" required="">
+					<option value="" disabled selected>Month</option>
+					<option>Jan</option>
+					<option>Feb</option>
+				</select>
 
-			<!-- Password -->
-			<label for="password">Password: </label>
-			<input type="password" name="password" id="password" placeholder="Password" minlength="5" maxlength="10" required>
+				<!-- Day Dropdown list -->
+				<select id="DOB" name="Day" required="">
+					<option value="" disabled selected>Day</option>
+					<option>1</option>
+					<option>2</option>
+				</select>
 
-			<br>
+				<!-- Year Dropdown list -->
+				<select id="DOB" name="Year" required="">
+					<option value="" disabled selected>Year</option>
+					<option>2018</option>
+					<option>2017</option>
+				</select>	
+			</div>
+			
 
-			<!-- Date of Birth choice -->
-			<label for="DOB">Birthday</label>
-
-			<!-- Month Dropdown list -->
-			<select id="DOB" name="Month" required="">
-				<option value="" disabled selected>Month</option>
-				<option>Jan</option>
-				<option>Feb</option>
-			</select>
-
-			<!-- Day Dropdown list -->
-			<select id="DOB" name="Day" required="">
-				<option value="" disabled selected>Day</option>
-				<option>1</option>
-				<option>2</option>
-			</select>
-
-			<!-- Year Dropdown list -->
-			<select id="DOB" name="Year" required="">
-				<option value="" disabled selected>Year</option>
-				<option>2018</option>
-				<option>2017</option>
-			</select>
-
-			<br>
-
-			<!-- Terms and Conditions checkbox-->
-			<label for="conditions">I agree to the terms and conditions</label>
-			<input id="conditions" type="checkbox" name="conditions" required>
-
-			<br>
+			<div>
+				<!-- Terms and Conditions checkbox-->
+				<label for="conditions">I agree to the terms and conditions</label>
+				<input id="conditions" type="checkbox" name="conditions" required>
+			</div>
 
 			<!-- Submit button -->
 			<input type="submit" name="submit" value="Register">
