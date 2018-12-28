@@ -1,5 +1,5 @@
 h1 {
-	color: #52056B;
+	color: rgba(0, 255, 100, 1);
 	/*Hex codes follow RGB pattern
 	All Fs combined together constitutes white color
 	whereas absence of any color constitutes black color*/
@@ -10,3 +10,13 @@ h1 {
 0000FF is blue
 FFFFFF is white
 000000 is black*/
+
+
+/*RGB is in base 10 i.e. decimal
+but the range is from 0 to 255*/
+
+
+/*The only difference between hex color codes and the RGB
+is the syntactical difference*/
+
+/*The alpha parameter in rgba helps to induce transparency in the colors*/
