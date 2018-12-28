@@ -1,11 +1,12 @@
 h1 {
-	color: red;
+	color: #52056B;
+	/*Hex codes follow RGB pattern
+	All Fs combined together constitutes white color
+	whereas absence of any color constitutes black color*/
 }
 
-li {
-	color: green;
-}
-
-h4 {
-	color: purple;
-}
+/*FF0000 is red
+00FF00 is green
+0000FF is blue
+FFFFFF is white
+000000 is black*/
