@@ -3,6 +3,16 @@ h1 {
 	/*Hex codes follow RGB pattern
 	All Fs combined together constitutes white color
 	whereas absence of any color constitutes black color*/
+	
+
+	/*Ideally the 3 properties
+	  width, style, color
+	  go hand in hand but the most important one is border-style: */
+	border-width: 5px;
+	border-style: solid;
+	border-color: purple;
+	/*shorthand property for borders is border: 5px solid purple */
+
 }
 
 /*FF0000 is red
@@ -20,3 +30,22 @@ but the range is from 0 to 255*/
 is the syntactical difference*/
 
 /*The alpha parameter in rgba helps to induce transparency in the colors*/
+
+
+h4 {
+	background: rgb(255, 100, 80);
+}
+
+body {
+	background: pink;
+	/*background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvPtRmzmj35LYZlfz_Yn8R8hf8oWn72bIN5HnlR4d64Fldq_De6A);*/
+	
+	/*This property is used to make sure that the image can/can't be repeated in the background*/
+	background-repeat: no-repeat;
+
+	/*This property is used to make sure that the background image is stretched to cover the whole screen*/
+	background-size: cover;
+}
+
+
+
