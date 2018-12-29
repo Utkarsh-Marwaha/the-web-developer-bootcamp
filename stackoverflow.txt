@@ -1,0 +1,7 @@
+https://stackoverflow.com/questions/5805059/how-do-i-make-a-placeholder-for-a-select-box
+
+https://stackoverflow.com/questions/34084487/how-to-set-minimum-length-of-password
+
+https://stackoverflow.com/questions/8287779/html5-how-to-use-the-required-attribute-with-a-radio-input-field
+
+http://stackoverflow.com/questions/4148499/how-to-style-checkbox-using-css
