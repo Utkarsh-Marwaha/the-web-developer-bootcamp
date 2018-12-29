@@ -1,0 +1,14 @@
+li {
+	border: 2px solid red;
+	/*width style color*/
+}
+
+/*ids are referenced using a # symbol*/
+#special {
+	background: yellow;
+}
+
+/*classes are referenced using a . symbol*/
+.completed {
+	text-decoration: line-through;
+}
