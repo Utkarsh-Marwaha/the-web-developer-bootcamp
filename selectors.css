@@ -1,0 +1,71 @@
+/*Elements*/
+li {
+
+}
+
+/*Id */
+#name {
+
+}
+
+/*class*/
+.hello {
+
+}
+
+/*Star*/
+* {
+	border: 1px solid lightgrey;
+	/*width style color*/
+}
+
+/*Descendent Selectors*/
+/*It takes two or more selectors and chains them together*/
+
+/*This will select every anchor tag which is present inside a li tag*/
+li a {
+	color: red;
+}
+
+
+/*Adjacent Selectors*/
+/*It takes two or more selectors and chains them together*/
+
+/*This will select every ul tag which appears after a h4 tag. Note that the second
+tag will not be nested inside the first one*/
+
+/*Basically all ul tags which are younger siblings (written after) of h4 tags*/
+h4 + ul {
+	border: 4px solid red;
+	/*width style color*/
+}
+
+/*Attribute Selectors*/
+/*Attribute selector is used to select elements based on any attribute*/
+
+/*Element name followed by the attribute name along with the required value of the attribute*/
+/*This will select all the anchor tags with href attribute value equal to https://www.google.com*/
+a[href="https://www.google.com"] {
+
+}
+
+/*another example is input[type="password"]*/
+
+
+/*nth of type*/
+/*It takes a number like 3 or 5 and then selects every nth of a type of element*/
+
+/*Every third ul of a group will turn purple*/
+ul: nth-of-type(3) {
+	background: purple;
+}
+
+/*Every third li of a group will turn red*/
+li: nth-of-type(3) {
+	background: red;
+}
+
+/*Every even numbered li of a group will turn blue*/
+li: nth-of-type(even) {
+	background: blue;
+}
