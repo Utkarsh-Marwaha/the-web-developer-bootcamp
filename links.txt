@@ -1,0 +1,35 @@
+pdf course slides
+https://drive.google.com/drive/folders/0B7qHXcyKO8LKWGdpcXQtM2liUjQ
+
+helpful course notes by a past student
+https://drive.google.com/drive/folders/12jCkOQCAtXoxxpwfevuWDlYgWj6ryh3N
+
+all html colors
+http://colours.neilorangepeel.com/
+
+color picker
+https://www.webfx.com/web-design/color-picker/
+
+30 CSS selectors you must memorize (not really though)
+https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+
+keegan  CSS specificity calculator
+https://specificity.keegan.st/
+
+style checked checkboxes in CSS
+https://developer.mozilla.org/en-US/docs/Web/CSS/:checked
+
+make all labels uppercase in CSS
+https://developer.mozilla.org/en/docs/Web/CSS/text-transform
+
+change the style of the first letter in CSS
+https://www.w3schools.com/csSref/sel_firstletter.asp
+
+bacon lorem ipsum
+https://baconipsum.com/?paras=5&type=all-meat&start-with-lorem=1
+
+css font stack
+https://www.cssfontstack.com/
+
+Google Fonts
+https://fonts.google.com/
