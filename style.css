@@ -1,0 +1,32 @@
+p {
+
+
+
+/*Content - Width and Height*/
+
+/*We use percentage units in specifying width and height of the elements so as to
+make sure that the overall design of web page is sensitive to changes in screen size*/
+
+/*50% of parent element*/
+width: 50%;
+/*Border*/
+
+border: 2px solid blue; 
+
+/*Padding*/
+/*padding: 10px; */
+padding-left: 40px;
+
+/*Margin*/
+
+/*margin: 100px;*/ /*sets all margins to 100px*/
+/*margin: 20px 40px 500px 100px; */ /* order of specification top right bottom left*/
+
+/*auto margin centres the element for us*/
+margin: 0 auto 0 auto; /*is the same as margin: 0 auto;*/ 
+/*Both set top and bottom to 0 and left and right to auto*/
+
+/*margin: 50px auto; */
+/*This sets top and bottom to 50px and left and right to auto*/
+
+}
