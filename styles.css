@@ -1,11 +1,11 @@
 /*font-family*/
 
 p {
-	font-family: "Arial";
+	font-family: "Charm", cursive;
 }
 
 h1 {
-	font-family: "Georgia";
+	font-family: "Charm", cursive;
 }
 
 /*font-size*/
@@ -40,7 +40,7 @@ p {
 
 	/*Some fonts will allow us to use a numeric value to specify the font-weight: 
 	This value ranges from 100 to 800 in steps of 100*/
-	font-weight: bold;
+	font-weight: normal;
 }
 
 /*line-weight*/
