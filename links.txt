@@ -33,3 +33,6 @@ https://www.cssfontstack.com/
 
 Google Fonts
 https://fonts.google.com/
+
+Horizontal Rule Style CSS Tricks
+https://css-tricks.com/examples/hrs/
