@@ -34,5 +34,8 @@ https://www.cssfontstack.com/
 Google Fonts
 https://fonts.google.com/
 
-Horizontal Rule Style CSS Tricks
-https://css-tricks.com/examples/hrs/
+Bootstrap 3
+https://getbootstrap.com/docs/3.3/
+
+Migrate from Bootstrap 3 to Bootstrap 4
+https://www.youtube.com/watch?v=NHHh0sj1uKY
