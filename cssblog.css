@@ -1,0 +1,31 @@
+body {
+	border: 20px solid #bdc3c7;
+	margin: 2.5% auto;
+	padding: 2.5%;
+
+	/*responsive design*/
+/*	if display size if more than 700px then then the display
+	shrinks to 80% of the screen otherwise remains 700px*/
+	max-width: 700px;
+	width: 80%;
+}
+
+h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #2c3e50;
+	font-weight: 700;
+	/*rem is relative to root element whereas em is relative to parent element*/
+	font-size: 2.0rem;
+}
+
+h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	color: #3498db; 
+}
+
+p:nth-of-type(1) {
+	border-left: 5px solid #bdc3c7;
+	padding-left: 1%;
+}
