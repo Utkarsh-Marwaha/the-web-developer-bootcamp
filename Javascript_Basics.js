@@ -103,3 +103,17 @@ name = "Bob";
 
 // Javascript is dynamically typed which means we can change the data type of the value stores in the variables
 secretNumber = "Seven Two One";
+
+
+// Null and Undefined
+
+// The two other primitives are null and undefined
+
+// Variables that are declared but not initialized are undefined
+// The following variables are undefined:
+var firstName;
+var age;
+
+// null is "explicitly nothing"
+var currentPlayer = "charlie";
+currentPlayer = null; // game over
